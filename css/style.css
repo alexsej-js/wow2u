@@ -508,7 +508,6 @@ button.loading::before {
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
-        height: 80vh;
     }
 
     .imgmesg {
@@ -674,7 +673,7 @@ button.loading::before {
         margin: 0 auto;
         max-width: 60%;
         text-align: center;
-        margin-bottom: 70vh;
+        margin-bottom: 60vh;
         padding: 0;
     }
 
@@ -754,5 +753,38 @@ button.loading::before {
     }
     .imgconsolebig {
         top: 10%;
+    }
+    .imgmoon {
+        left: 2%;
+    }
+    .imgsalebig {
+        left: 90%;
+    }
+    .header-logo-wrapp > img {
+        margin-right: 45px;
+    }
+}
+@media (max-width: 325px) {
+    .imgqustion2 {
+        top: 56%;
+        left: 60%;
+    }
+    .imgqustion {
+        top: 15%;
+    }
+    .imgqustion3 {
+        top: 32%;
+    }
+    .imgpacket {
+        top: 45%;
+    }
+    .imgbag-iso-clay {
+        top: 60%;
+    }
+    .header-logo-wrapp > img {
+        margin-right: 25px;
+    }
+    .imgmobilephone {
+        width: 90%;
     }
 }
