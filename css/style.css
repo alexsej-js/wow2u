@@ -575,7 +575,7 @@ button.loading::before {
 
     .imgmoon {
         top: 3%;
-        left: 20%;
+        left: 12%;
     }
 
     .imgsun {
@@ -733,7 +733,7 @@ button.loading::before {
         top: 17%;
     }
     .imgqustion2 {
-        top: 57%;
+        top: 60%;
         left: 53%;
     }
     .imgqustion3 {
@@ -753,6 +753,7 @@ button.loading::before {
     }
     .imgconsolebig {
         top: 10%;
+        left: 85%;
     }
     .imgmoon {
         left: 2%;
