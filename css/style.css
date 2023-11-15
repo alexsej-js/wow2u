@@ -1,6 +1,5 @@
 html {
     box-sizing: border-box;
-
 }
 
 * * ::before,
@@ -51,9 +50,7 @@ p {
 
 .site-container {
     width: 100%;
-    height: 100vh;
-
-
+    padding-bottom: 100px;
 }
 
 .btn-reset {
@@ -234,6 +231,7 @@ button.loading::after {
     position: absolute;
     top: 50%;
     left: 50%;
+    width: 5%;
 }
 
 .imgmobilephone {
@@ -246,132 +244,154 @@ button.loading::after {
     position: absolute;
     top: 85%;
     left: 65%;
+    width: 4%;
 }
 
 .imglokmin {
     position: absolute;
     top: 65%;
     left: 35%;
+    width: 3%;
 }
 
 .imgmesg {
     position: absolute;
     top: 30%;
     left: 90%;
+    width: 5%;
 }
 
 .imgmice {
     position: absolute;
     top: 50%;
     left: 60%;
+    width: 5%;
 }
 
 .imgmice2 {
     position: absolute;
     top: 70%;
     left: 50%;
+    width: 3%;
 }
 
 .imgmoon {
     position: absolute;
     top: 18%;
     left: 73%;
+    width: 5%;
 }
 
 .imgsun {
     position: absolute;
     top: 18%;
     left: 80%;
+    width: 5%;
 }
 
 .imgsalebig {
     position: absolute;
     top: 35%;
     left: 65%;
+    width: 5%;
 }
 
 .imgmegafon {
     position: absolute;
     top: 85%;
     left: 45%;
+    width: 5%;
 }
 
 .imgclaybig {
     position: absolute;
     top: 35%;
     left: 45%;
+    width: 5%;
 }
 
 .imgclay {
     position: absolute;
     top: 85%;
     left: 55%;
+    width: 5%;
 }
 
 .imghart1 {
     position: absolute;
     top: 30%;
     left: 55%;
+    width: 5%;
 }
 
 .imghert2 {
     position: absolute;
     top: 50%;
     left: 40%;
+    width: 4%;
 }
 
 .imgbotbig {
     position: absolute;
     top: 50%;
     left: 55%;
+    width: 5%;
 }
 
 .imglikebig {
     position: absolute;
     top: 65%;
     left: 55%;
+    width: 5%;
 }
 
 .imgstar {
     position: absolute;
     top: 75%;
     left: 28%;
+    width: 5%;
 }
 
 .imgpacket {
     position: absolute;
     top: 85%;
     left: 80%;
+    width: 5%;
 }
 
 .imgbag-iso-clay {
     position: absolute;
     top: 80%;
     left: 35%;
+    width: 5%;
 }
 
 .imggift {
     position: absolute;
     top: 75%;
     left: 20%;
+    width: 2%;
 }
 
 .imgconsolebig {
     position: absolute;
     top: 65%;
     left: 43%;
+    width: 5%;
 }
 
 .imgconsolemidlle {
     position: absolute;
     top: 65%;
     left: 25%;
+    width: 5%;
 }
 
 .imgbotblack {
     position: absolute;
     top: 55%;
     left: 35%;
+    width: 3%;
 }
 
 .imgqustion,
@@ -405,7 +425,11 @@ button.loading::before {
         left: 90%;
     }
 }
-
+@media (max-width: 1650px) {
+    .imgmoon {
+        top: 10%;
+    }
+}
 @media (max-width: 1440px) {
     .header {
         padding-top: 30px;
@@ -485,7 +509,11 @@ button.loading::before {
         font-size: 35px;
     }
 }
-
+@media (max-width: 1030px) {
+    .imgsun {
+        left: 85%;
+    }
+}
 @media (max-width: 768px) {
     body {
         background: rgb(243, 166, 108);
@@ -508,6 +536,7 @@ button.loading::before {
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
+        height: 80vh;
     }
 
     .imgmesg {
@@ -534,7 +563,7 @@ button.loading::before {
     }
 
     .imgqustion2 {
-        top: 55%;
+        top: 65%;
         left: 60%;
     }
 
